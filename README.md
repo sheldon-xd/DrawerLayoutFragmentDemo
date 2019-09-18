@@ -1,0 +1,4 @@
+# DrawerLayoutFragmentDemo
+drawerlayout侧滑控件配合Fragment主界面实现
+整合了Drawerlayout与appbarlayout以及navigation联动
+以include嵌套的方式兼容了fragment viewpager滑动事件
