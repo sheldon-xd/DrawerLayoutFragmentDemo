@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pureWhite"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ll_title"
+        layout="@layout/include_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/gray200" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="10.0dip">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="前屈："
+            android:textColor="@color/blueGray700"
+            android:textSize="20.0sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7.0dip"
+            android:layout_marginRight="20.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/iv_fsReduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_remove_blue_grey_800_24dp" />
+
+            <EditText
+                android:id="@id/tv_fsDegree"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:background="@null"
+                android:textAlignment="center"
+                android:textColor="@color/blueGray700"
+                android:textSize="20.0sp" />
+
+            <ImageView
+                android:id="@id/iv_fsIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:src="@drawable/ic_add_blue_grey_800_24dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@color/blueGray100" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="10.0dip">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="后伸："
+            android:textColor="@color/blueGray700"
+            android:textSize="20.0sp" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7.0dip"
+            android:gravity="center_vertical"
+            android:layout_marginRight="20.0dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/iv_bsReduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_remove_blue_grey_800_24dp" />
+
+            <EditText
+                android:id="@id/tv_bsDegree"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:background="@null"
+                android:textAlignment="center"
+                android:textColor="@color/blueGray700"
+                android:textSize="20.0sp" />
+
+            <ImageView
+                android:id="@id/iv_bsIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:src="@drawable/ic_add_blue_grey_800_24dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@color/blueGray100" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="10.0dip">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="左侧屈："
+            android:textColor="@color/blueGray700"
+            android:textSize="20.0sp" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_marginTop="7.0dip"
+            android:layout_marginRight="20.0dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/iv_lsReduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_remove_blue_grey_800_24dp" />
+
+            <EditText
+                android:id="@id/tv_lsDegree"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:background="@null"
+                android:textAlignment="center"
+                android:textColor="@color/blueGray700"
+                android:textSize="20.0sp" />
+
+            <ImageView
+                android:id="@id/iv_lsIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:src="@drawable/ic_add_blue_grey_800_24dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@color/blueGray100" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="10.0dip">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="右侧屈："
+            android:textColor="@color/blueGray700"
+            android:textSize="20.0sp" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_marginTop="7.0dip"
+            android:layout_marginRight="20.0dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/iv_rsReduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_remove_blue_grey_800_24dp" />
+
+            <EditText
+                android:id="@id/tv_rsDegree"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:background="@null"
+                android:textAlignment="center"
+                android:textColor="@color/blueGray700"
+                android:textSize="20.0sp" />
+
+            <ImageView
+                android:id="@id/iv_rsIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:src="@drawable/ic_add_blue_grey_800_24dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@color/blueGray100" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="10.0dip">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="左旋转："
+            android:textColor="@color/blueGray700"
+            android:textSize="20.0sp" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_marginTop="7.0dip"
+            android:layout_marginRight="20.0dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/iv_lrReduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_remove_blue_grey_800_24dp" />
+
+            <EditText
+                android:id="@id/tv_lrDegree"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:text="60"
+                android:background="@null"
+                android:textAlignment="center"
+                android:textColor="@color/blueGray700"
+                android:textSize="20.0sp" />
+
+            <ImageView
+                android:id="@id/iv_lrIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:src="@drawable/ic_add_blue_grey_800_24dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@color/blueGray100" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:layout_marginBottom="10.0dip">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="右旋转："
+            android:textColor="@color/blueGray700"
+            android:textSize="20.0sp" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_marginTop="7.0dip"
+            android:layout_marginRight="20.0dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@id/iv_rrReduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_remove_blue_grey_800_24dp" />
+
+            <EditText
+                android:id="@id/tv_rrDegree"
+                android:layout_width="50.0dip"
+                android:layout_height="wrap_content"
+                android:text="60"
+                android:background="@null"
+                android:textAlignment="center"
+                android:textColor="@color/blueGray700"
+                android:textSize="20.0sp" />
+
+            <ImageView
+                android:id="@id/iv_rrIncrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:src="@drawable/ic_add_blue_grey_800_24dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:background="@color/blueGray100" />
+
+    <RelativeLayout
+        android:id="@+id/rl_complete"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="@dimen/margin_edite_bg"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/margin_edite_bg"
+        android:background="@drawable/shape_btn_blue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/complete"
+            android:textColor="@color/white_bg"
+            android:textSize="@dimen/text_main_size" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@id/title_IndexComState"
+        android:layout_width="fill_parent"
+        android:layout_height="29.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray200"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/title_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="3.0"
+            android:onClick="onClickedBTSet"
+            android:text="等待连接..."
+            android:textColor="@color/gray700"
+            android:textSize="19.0sp" />
+
+        <ImageView
+            android:id="@id/title_right_bluetoothicon"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1.0"
+            android:onClick="onClickedBTSet"
+            android:src="@drawable/ic_bluetooth_light_blue_800_48dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/div_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@id/title_IndexComState"
+        android:background="@color/blueGray200" />
+
+    <LinearLayout
+        android:id="@id/tab_IndexMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/tv_IndexTraining"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_menu_training"
+            android:drawablePadding="2.0dip"
+            android:gravity="center"
+            android:text="训练"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@id/tv_IndexEva"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_menu_eva"
+            android:drawablePadding="2.0dip"
+            android:gravity="center"
+            android:text="评估"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@id/tv_IndexCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_menu_course"
+            android:drawablePadding="2.0dip"
+            android:gravity="center"
+            android:text="教程"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="12.0sp" />
+
+        <TextView
+            android:id="@id/tv_IndexMe"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_menu_bg"
+            android:drawableTop="@drawable/tab_menu_me"
+            android:drawablePadding="2.0dip"
+            android:gravity="center"
+            android:text="我"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="12.0sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@id/fl_IndexContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/tab_IndexMenu"
+        android:layout_below="@id/title_IndexComState"
+        android:background="@color/gray200" />
+
+    <View
+        android:id="@id/div_tab_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_above="@id/tab_IndexMenu"
+        android:background="@color/blueGray200" />
+</RelativeLayout>

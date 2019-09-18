@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_bg"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray300" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_15"
+        android:layout_marginTop="@dimen/margin_top_30">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/goods_in"
+            android:gravity="center"
+            android:drawableTop="@drawable/icon_in"
+            android:textSize="@dimen/text_little_size"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/goods_out"
+            android:gravity="center"
+            android:drawableTop="@drawable/icon_out"
+            android:textSize="@dimen/text_little_size"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="@string/goods_check"
+            android:drawableTop="@drawable/icon_pandian"
+            android:textSize="@dimen/text_little_size"/>
+    </LinearLayout>
+<!--android:drawableTop=""-->
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pureWhite"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ll_title"
+        layout="@layout/include_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/gray200" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_height">
+
+            <EditText
+                android:id="@id/et_RegEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="8.0dip"
+                android:hint="注册电子邮箱"
+                android:background="@null"
+                android:textColor="@color/blueGray700"
+                android:textColorHint="@color/blueGray500"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@color/blueGray100" />
+
+        <Button
+            android:id="@id/btn_RegCheckEmailAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:text="邮箱是否合法"
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@id/et_RegPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="8.0dip"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:textColor="@color/blueGray700"
+            android:textColorHint="@color/blueGray500"
+            android:textSize="16.0sp"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@id/vw_Divide3"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@color/blueGray100"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@id/et_RegAffirmPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="8.0dip"
+            android:hint="确认密码"
+            android:inputType="textPassword"
+            android:textColor="@color/blueGray700"
+            android:textColorHint="@color/blueGray500"
+            android:textSize="16.0sp"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@id/vw_Divide4"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@color/blueGray100"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@id/tv_PasswordRequire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:text="密码为6位及以上字母和数字组成"
+            android:textColor="@color/blueGray700"
+            android:textSize="10.0sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/btn_RegSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70.0dip"
+            android:src="@drawable/imgregister"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>

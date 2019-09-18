@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">应急物资管理</string>
+    <string name="buttom_train">训练</string>
+    <string name="buttom_assessment">评估</string>
+    <string name="buttom_course">教程</string>
+    <string name="buttom_mine">我</string>
+
+    <!--trainFragment-->
+    <string name="front_bend">前屈</string>
+    <string name="back_stretch">后伸</string>
+    <string name="left_bend">左侧屈</string>
+    <string name="right_bend">右侧屈</string>
+    <string name="left_rotate">左旋转</string>
+    <string name="right_rotate">右旋转</string>
+    <!--me-->
+    <string name="sign_out">退出登录</string>
+    <string name="check_update">检查更新</string>
+    <string name="sign_in">登录</string>
+    <string name="complete">完成</string>
+
+    <string name="notifyTitle">提示</string>
+    <string name="gpsNotifyMsg">当前手机扫描蓝牙需要打开定位功能。</string>
+    <string name="setting">前往设置</string>
+    <string name="cancel">取消</string>
+
+    <string name="start_scan">开始扫描</string>
+    <string name="stop_scan">停止扫描</string>
+    <string name="expand_search_settings">展开搜索设置</string>
+    <string name="retrieve_search_settings">收起搜索设置</string>
+    <string name="connect_fail">连接失败</string>
+    <string name="active_disconnected">断开了</string>
+    <string name="disconnected">连接断开</string>
+    <string name="please_open_blue">请先打开蓝牙</string>
+    <string name="select_operation_type">选择操作类型</string>
+    <string name="characteristic">特性</string>
+    <string name="data_changed">的数据变化：</string>
+    <string name="read">读</string>
+    <string name="write">写</string>
+    <string name="open_notification">打开通知</string>
+    <string name="close_notification">关闭通知</string>
+    <string name="service_list">服务列表</string>
+    <string name="characteristic_list">特征列表</string>
+    <string name="console">操作控制台</string>
+    <string name="name">设备广播名：</string>
+    <string name="mac">MAC:</string>
+    <string name="service">服务</string>
+    <string name="type">服务类型(主服务)</string>
+    <string name="scan_setting">在下面你可以配置需要扫描的设备的条件，可以为空</string>
+    <string name="setting_name">输入蓝牙设备广播名，多个之间以英文逗号隔开</string>
+    <string name="setting_mac">输入蓝牙设备mac地址</string>
+    <string name="setting_uuid">输入蓝牙设备UUID，多个之间以英文逗号隔开</string>
+    <string name="input_hex">请输入HEX格式指令</string>
+    <string name="connect">连接</string>
+    <string name="connected">已连接</string>
+    <string name="disconnect">断开连接</string>
+    <string name="enter">进入操作</string>
+
+    <!--coursefragment-->
+    <string name="LeftBreathDetail">保持呼吸顺畅!!!呼吸要有节奏</string>
+    <string name="LeftCommonMistakeDetail">不管向上转动还是下落速度都太快!!!使用不合理的负重</string>
+    <string name="LeftDownAngle">85</string>
+    <string name="LeftFeelingDetail">感受颈部肌肉发力收紧!!!下落速度要缓慢，防止速度太快导致眩晕</string>
+    <string name="LeftProcessDetail">左侧卧在垫子上!!!头部缓慢下落!!!头部快速向上转动（时间尽量短）</string>
+    <string name="LeftUpAngle">5</string>
+    <string name="PushUpBreathDetail">一般情况下可以分两种呼吸方式!!!一种是每次俯卧时吸气（只能用鼻），撑时就呼气（可以用鼻和口）!!!另一种是做二次或者三次就做一次吸气和吐气</string>
+    <string name="PushUpCommonMistakeDetail">身体未保持平直!!!身体未降至肩与肘处于同一水平面</string>
+    <string name="PushUpFeelingDetail">双手支撑身体，双臂垂直于地面，两腿向身体后方伸展，依靠双手和两个脚的脚尖保持平衡!!!两个肘部向身体外侧弯曲，身体降低到基本靠近地板。收紧腹部，保持身体在一条直线上，持续一秒钟，然后恢复原状</string>
+    <string name="PushUpProcessDetail">身体保持肩膀到脚踝成一条直线，双臂放在胸部位置，两手相距略宽于肩膀!!!2到3秒时间来充分下降身体，最终胸部距离地面2到3厘米距离左右!!!马上快速用力撑起，回到起始位置</string>
+    <string name="PushUpUPAcc">1.2</string>
+    <string name="RightBreathDetail">保持呼吸顺畅!!!呼吸要有节奏</string>
+    <string name="RightCommonMistakeDetail">不管向上转动还是下落速度都太快!!!使用不合理的负重</string>
+    <string name="RightDownAngle">-85</string>
+    <string name="RightFeelingDetail">感受颈部肌肉发力收紧!!!下落速度要缓慢，防止速度太快导致眩晕</string>
+    <string name="RightProcessDetail">右侧卧在垫子上!!!头部缓慢下落!!!头部快速向上转动（时间尽量短）</string>
+    <string name="RightUpAngle">5</string>
+    <string name="SitUpBreathDetail">做仰卧起坐时,身体前屈时应呼气!!!向后仰卧的过程开始吸气，肩背部触垫的瞬间屏气收腹!!!当上体抬起至腹部有胀感时，快速呼气，向前引体完成动作</string>
+    <string name="SitUpCommonMistakeDetail">动作速度不宜太快!!!身体不能向左右偏移!!!双手不能置于脑后，十指交叉，运动全过程手臂不能对头施加力</string>
+    <string name="SitUpDownAngle">50</string>
+    <string name="SitUpFeelingDetail">起身时会感到大腿部肌肉收紧!!!向后仰卧的过程不宜太快，会感到腹部肌肉发力</string>
+    <string name="SitUpProcessDetail">身体仰卧于地垫上，屈膝成90度左右，脚部平放在地上!!!双手可虚扶耳朵或交叉置于胸前!!!腹部收紧，将身体抬起，迅速成坐姿。缓缓后仰回到初始状态</string>
+    <string name="SitUpUpAngle">0</string>
+
+    <string name="usually_manager">日常管理</string>
+    <string name="storehourse_manager">仓储助理</string>
+    <string name="me_manager">我的</string>
+    <!--日常管理-->
+    <string name="goods_in">物资入库</string>
+    <string name="goods_out">物资出库</string>
+    <string name="goods_check">物资盘点</string>
+    <!--仓储助理-->
+    <string name="goods_inspeciton">物资巡查</string>
+    <string name="goods_damage">物资报损</string>
+    <string name="goods_shift">倒库移库</string>
+    <string name="goods_update">物资更新</string>
+    <string name="goods_maintenance">物资保养</string>
+    <!--我的-->
+    <string name="change_password">密码修改</string>
+    <string name="storehouse_update">同步物资分类仓库</string>
+    <string name="apk_update">软件更新</string>
+    <string name="quite">退出登录</string>
+<!--drawerlayout-->
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+</resources>

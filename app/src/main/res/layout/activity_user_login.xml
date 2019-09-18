@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/pureWhite"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ll_title"
+        layout="@layout/include_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10.0dip"
+        android:background="@color/gray200" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100.0dip">
+
+        <ImageView
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_account_circle_grey_900_48dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="40.0dip"
+            android:background="@drawable/relative_shape">
+
+            <ImageView
+                android:id="@id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:src="@drawable/ic_person_grey_700_24dp" />
+
+            <EditText
+                android:id="@id/et_LoginEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="50.0dip"
+                android:background="@null"
+                android:hint="电子邮箱"
+                android:textColor="@color/blueGray700"
+                android:textColorHint="@color/blueGray500"
+                android:textSize="15.0sp" />
+
+            <ImageView
+                android:id="@id/iv_LoginClearInputEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10.0dip"
+                android:src="@drawable/ic_clear_grey_700_24dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="40.0dip"
+            android:background="@drawable/relative_shape">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:src="@drawable/ic_lock_grey_700_24dp" />
+
+            <EditText
+                android:id="@id/et_LoginPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="50.0dip"
+                android:background="@null"
+                android:hint="密 码"
+                android:inputType="textPassword"
+                android:textColor="@color/blueGray700"
+                android:textColorHint="@color/blueGray500"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@id/tv_LoginForgetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:text="忘记密码?"
+                android:textColor="@color/blueGray700"
+                android:textSize="14.0sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_login"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="@dimen/margin_edite_bg"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="@dimen/margin_edite_bg"
+        android:background="@drawable/shape_btn_blue">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/sign_in"
+            android:textColor="@color/white_bg"
+            android:textSize="@dimen/text_main_size" />
+    </RelativeLayout>
+</LinearLayout>

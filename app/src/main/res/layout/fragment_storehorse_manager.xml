@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white_bg"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray300" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_30"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_15">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_xuncha"
+            android:gravity="center"
+            android:text="@string/goods_inspeciton"
+            android:textSize="@dimen/text_little_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_baosun"
+            android:gravity="center"
+            android:text="@string/goods_damage"
+            android:textSize="@dimen/text_little_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_daoku"
+            android:gravity="center"
+            android:text="@string/goods_shift"
+            android:textSize="@dimen/text_little_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_15">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_update"
+            android:gravity="center"
+            android:text="@string/goods_update"
+            android:textSize="@dimen/text_little_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_baoyang"
+            android:gravity="center"
+            android:text="@string/goods_maintenance"
+            android:textSize="@dimen/text_little_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_daoku"
+            android:gravity="center"
+            android:text="@string/goods_shift"
+            android:textSize="@dimen/text_little_size"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>
